@@ -25,11 +25,10 @@ This connector fetches public events from GitHub repositories and loads them int
 pip install fivetran-connector-sdk requests
 ```
 
-2. Configure your repositories in `configuration.json`:
+2. Configure one or more repositories in `configuration.json` delimited by `,` in single string:
 ```json
 {
-    "repo_list": "owner1/repo1,owner2/repo2",
-    "github_token": ""
+    "repo_list": "owner1/repo1,owner2/repo2"
 }
 ```
 
