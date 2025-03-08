@@ -1,4 +1,4 @@
 {
-    "repo_list": "apache/polaris,microsoft/vscode",
+    "repo_list": "apache/polaris,apache/iceberg,microsoft/vscode",
     "github_token": ""
 } 
